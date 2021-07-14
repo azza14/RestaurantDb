@@ -4,14 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a5a0816929de42dfa6e81b887a290463" Name="Diagram1" ZoomLevel="98">
-        <EntityTypeShape EntityType="RestaurantDBModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RestaurantDBModel.Item" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RestaurantDBModel.PaymentType" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="RestaurantDBModel.Transaction" Width="1.5" PointX="5.375" PointY="0.75" />
-        <EntityTypeShape EntityType="RestaurantDBModel.OrderDetail" Width="1.5" PointX="5.625" PointY="4" />
-        <EntityTypeShape EntityType="RestaurantDBModel.Order" Width="1.5" PointX="3.375" PointY="4" />
-        <AssociationConnector Association="RestaurantDBModel.FK_OrderDetails_Orders" />
+      <Diagram DiagramId="3623e573bb63498f93c8e288734e0d98" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantDBModel.Customer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Item" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.PaymentType" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.OrderDetail" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Order" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Transaction" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="RestaurantDBModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

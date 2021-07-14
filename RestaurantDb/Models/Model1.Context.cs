@@ -7,8 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RestaurantDb.Models
+namespace RestaurantDb
 {
+    using RestaurantDb.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
@@ -28,8 +29,8 @@ namespace RestaurantDb.Models
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Item> Items { get; set; }
         public virtual DbSet<PaymentType> PaymentTypes { get; set; }
-        public virtual DbSet<Transaction> Transactions { get; set; }
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<Order> Orders { get; set; }
+        public virtual DbSet<Transaction> Transactions { get; set; }
     }
 }

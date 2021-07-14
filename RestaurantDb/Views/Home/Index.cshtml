@@ -164,7 +164,7 @@
     }
 
     function CalculateSubTotal() {
-        //  debugger;
+          debugger;
         var unitPrice = $("#txtUnitPrice").val();
         var Quantity = $("#txtQuantity").val();
         var discount = $("#txtDiscount").val();
@@ -176,6 +176,8 @@
     }
 
     function GetItemUnitPrice(itemId) {
+
+        debugger;
         $.ajax({
             type: 'Get',
             async: true,
