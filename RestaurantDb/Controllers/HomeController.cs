@@ -44,6 +44,7 @@ namespace RestaurantDb.Controllers
         {
             OrderRepository orderRepository = new OrderRepository();
             orderRepository.AddOrder(orderViewModel);
+
             return Json(" Your order had been suuceefuly added", JsonRequestBehavior.AllowGet);
         }
     }
